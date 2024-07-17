@@ -1,0 +1,16 @@
+<section>
+    <mat-form-field>
+        <mat-label>Province</mat-label>
+        <mat-select [(value)]="province"
+                (selectionChange)="setProvince(province)">
+            <mat-option  *ngFor="let optionProvince of provinces" value="{{optionProvince.name}}">{{ optionProvince.name }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <mat-list *ngFor="let city of selectedProvince.cities">
+        <mat-list-item class="city">
+            <span matListItemTitle>{{ city.name }}</span>
+            <span matListItemLine>{{ city.population }}</span>
+        </mat-list-item>
+    </mat-list>
+</section>

@@ -1,0 +1,104 @@
+{
+  "provinces": [
+    {
+      "name": "Ontario",
+      "capital": "Toronto",
+      "population": 14734014,
+      "cities": [
+        { "name": "Toronto", "population": 2731571 },
+        { "name": "Ottawa", "population": 934243 },
+        { "name": "Mississauga", "population": 721599 }
+      ]
+    },
+    {
+      "name": "Quebec",
+      "capital": "Quebec City",
+      "population": 8604495,
+      "cities": [
+        { "name": "Montreal", "population": 1704694 },
+        { "name": "Quebec City", "population": 542298 },
+        { "name": "Laval", "population": 422993 }
+      ]
+    },
+    {
+      "name": "British Columbia",
+      "capital": "Victoria",
+      "population": 5147712,
+      "cities": [
+        { "name": "Vancouver", "population": 631486 },
+        { "name": "Surrey", "population": 517887 },
+        { "name": "Burnaby", "population": 249197 }
+      ]
+    },
+    {
+      "name": "Alberta",
+      "capital": "Edmonton",
+      "population": 4442879,
+      "cities": [
+        { "name": "Calgary", "population": 1239220 },
+        { "name": "Edmonton", "population": 972223 },
+        { "name": "Red Deer", "population": 103588 }
+      ]
+    },
+    {
+      "name": "Manitoba",
+      "capital": "Winnipeg",
+      "population": 1377517,
+      "cities": [
+        { "name": "Winnipeg", "population": 749534 },
+        { "name": "Brandon", "population": 48859 },
+        { "name": "Steinbach", "population": 15325 }
+      ]
+    },
+    {
+      "name": "Saskatchewan",
+      "capital": "Regina",
+      "population": 1181666,
+      "cities": [
+        { "name": "Saskatoon", "population": 273010 },
+        { "name": "Regina", "population": 215106 },
+        { "name": "Prince Albert", "population": 35926 }
+      ]
+    },
+    {
+      "name": "Nova Scotia",
+      "capital": "Halifax",
+      "population": 1008037,
+      "cities": [
+        { "name": "Halifax", "population": 439819 },
+        { "name": "Sydney", "population": 31097 },
+        { "name": "Truro", "population": 12661 }
+      ]
+    },
+    {
+      "name": "New Brunswick",
+      "capital": "Fredericton",
+      "population": 789225,
+      "cities": [
+        { "name": "Moncton", "population": 85198 },
+        { "name": "Saint John", "population": 69161 },
+        { "name": "Fredericton", "population": 58220 }
+      ]
+    },
+    {
+      "name": "Newfoundland and Labrador",
+      "capital": "St. John's",
+      "population": 510550,
+      "cities": [
+        { "name": "St. John's", "population": 108860 },
+        { "name": "Corner Brook", "population": 19194 },
+        { "name": "Gander", "population": 11588 }
+      ]
+    },
+    {
+      "name": "Prince Edward Island",
+      "capital": "Charlottetown",
+      "population": 167680,
+      "cities": [
+        { "name": "Charlottetown", "population": 36094 },
+        { "name": "Summerside", "population": 14829 },
+        { "name": "Stratford", "population": 10800 }
+      ]
+    }
+  ]
+}

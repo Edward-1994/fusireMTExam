@@ -1,0 +1,10 @@
+<section>
+    <mat-list *ngFor="let province of provinces" [ngStyle]="{textAlign: 'left'}">
+        <mat-list-item>
+            <span matListItemTitle>{{ province.name }}</span>
+            <span matListItemLine>{{ province.capital }}</span>
+            <span matListItemLine>{{ province.population }}</span>
+            <hr>
+        </mat-list-item>
+    </mat-list>
+</section>
